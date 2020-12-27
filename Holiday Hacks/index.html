@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+
+    <title>Holiday Hacks</title>
+
+
+    <style>
+        body {
+            font-family: 'Josefin Sans';
+            font-size: 22px;
+        }
+
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <!-- A grey horizontal navbar that becomes vertical on small screens -->
+    <nav class="navbar navbar-expand-sm bg-danger justify-content-center">
+
+        <!-- Links -->
+        <ul class="navbar-nav">
+
+
+            <li class="nav-item" style="padding-right: 10px;">
+                <a class="nav-link" href="#"
+                    style="color: white; background-color: transparent; text-decoration: none;">Home</a>
+            </li>
+
+
+            <li class="nav-item" style="padding-right: 10px;">
+                <a class="nav-link"
+                    href="https://www.amazon.in/Christmas-Decorations-50-Off-or-more/s?rh=n%3A1380420031%2Cp_n_pct-off-with-tax%3A2665401031"
+                    style="color: white">Christmas Special</a>
+
+            </li>
+
+
+            <li class="nav-item" style="padding-right: 10px;">
+                <a class="nav-link" href="#" style="color: white">Offers</a>
+            </li>
+
+
+            <li class="nav-item" style="padding-right: 10px;">
+                <a class="nav-link" href="\login.html" style="color: white">Login</a>
+
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="1.png" alt="Los Angeles" width="1100" height="500">
+                <div class="carousel-caption">
+                    <h3>Los Angeles</h3>
+                    <p>We had such a great time in LA!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="2.png" alt="Chicago" width="1100" height="500">
+                <div class="carousel-caption">
+                    <h3>Chicago</h3>
+                    <p>Thank you, Chicago!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="3.png" alt="New York" width="1100" height="500">
+                <div class="carousel-caption">
+                    <h3>New York</h3>
+                    <p>We love the Big Apple!</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>Holiday destination finder...</h1>
+            <p>The best holiday destination finder on earth...</p>
+        </div>
+    </div>
+    <a>
+        <h2>Select your Plan from below</h2>
+        <a href="https://www.intermiles.com/blog/top-20-stunning-places-to-visit-in-winter-in-india">
+            <h3>Plan 1 : Winter Holidays destination in India</h3>
+        </a>
+        <a href="https://www.tourism-of-india.com/blog/summer-holiday-destinations-in-india/">
+            <h3>Plan 2 : Summer Holidays Destination in India</h3>
+        </a>
+
+
+        <a href="https://www.mapsnbags.com/winter-vacations-us/">
+            <h3>Plan 3 : Winter Holidays Destination in USA</h3>
+        </a>
+        <a href="https://travel.usnews.com/rankings/best-summer-vacations-in-the-usa/">
+            <h3>Plan 4 : Summer Holidays Destination in USA</h3>
+        </a>
+
+
+
+        <br>
+        <br>
+
+
+        <p id="demo1"></p>
+
+        <script type="text/javascript">
+            function ifelsefunction() {
+                var varA = parseInt(document.getElementById("selectvalue").value);
+                if (varA == 1) {
+                    document.getElementById("demo1").innerHTML = " ";           
+                    else if (varA == 2) {
+                        document.getElementById("demo1").innerHTML = " ";
+                    }
+                    else if (varA == 3) {
+                        document.getElementById("demo1").innerHTML = " ";
+                    }
+                    else if (varA == 4) {
+                        document.getElementById("demo1").innerHTML = " ";
+                    }
+                    else {
+                        alert("Select a proper plan")
+                    }
+                } 
+        </script>
+
+
+        <center><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.4004020759376!2d78.0399535145264!3d27.1751495552859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747121d702ff6d%3A0xdd2ae4803f767dde!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1609070831035!5m2!1sen!2sin"
+                width="400" height="300" frameborder="0" style="border:1;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15152819.576300783!2d79.72000582155638!3d21.995257006819674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1c73a0d5cad%3A0xc70a25a7209c733c!2sGateway%20Of%20India%20Mumbai!5e0!3m2!1sen!2sin!4v1609070295194!5m2!1sen!2sin"
+                width="400" height="300" frameborder="0" style="border:1;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.3062027567735!2d-74.0466890850963!3d40.689253446944605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25090129c363d%3A0x40c6a5770d25022b!2sStatue%20of%20Liberty%20National%20Monument!5e0!3m2!1sen!2sin!4v1609071077086!5m2!1sen!2sin"
+                width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </center>
+
+
+
+
+        <i class="fab fa-github"></i>
+
+        <br>
+        <br>
+        <br>
+        <!-- Footer -->
+        <section>
+            <footer style="padding-top: px;" class="page-footer font-small bg-danger pt-6" style="padding-top: 70px;">
+
+                <!-- Footer Text -->
+                <div class="container-fluid text-center text-md-left">
+
+                    <!-- Grid row -->
+                    <div class="row">
+
+                        <!-- Grid column -->
+                        <div class="col-md-6 mt-md-0 mt-3">
+
+                            <!-- Content -->
+                            <h5 class="text-uppercase font-weight-bold">Merry Christmas !!!</h5>
+                            <i class="fab fa-instagram"></i>
+
+                            <p>We have amazing travel packages with affordable prices on the tourist places of India and
+                                the
+                                US. Customer Service and Safety is our utmost priority so we take care of our customers'
+                                safety during this tough times and we have arranged packages which include travel with
+                                COVID-19 guidelines for the safety of our customers.</p>
+
+                        </div>
+                        <!-- Grid column -->
+
+                        <hr class="clearfix w-100 d-md-none pb-3">
+
+                        <!-- Grid column -->
+                        <div class="col-md-6 mb-md-0 mb-3">
+
+                            <!-- Content -->
+                            <h5 class="text-uppercase font-weight-bold">Happy New Year !!!</h5>
+                            <p>We have come up with special offers and discounts for our customers to travel with
+                                necessary safety guidelines during the Christmas and in the New Year!</p>
+
+                        </div>
+                        <!-- Grid column -->
+
+                    </div>
+                    <!-- Grid row -->
+
+                </div>
+                <!-- Footer Text -->
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© 2020 Copyright <br> <br>Designed and Developed by
+                    <a href="https://devpost.com/kalp_adhwaryu">Kalp Adhwaryu</a> & <a
+                        href="https://devpost.com/gokulcharade">Gokul Charade</a>
+                </div>
+
+
+            </footer>
+        </section>
+
+
+
+</body>
+
+</html>
